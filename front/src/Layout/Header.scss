@@ -1,0 +1,47 @@
+.header__all{
+    height: 80px;
+    background-image: url("https://preview.colorlib.com/theme/pulse/img/slider/slider-1.jpg.webp");
+    
+}
+.header__all__left{
+    h1{
+        color: white;
+        font-size: 30px;
+        // margin-top: 5px;
+        width: 180px;
+        height: 50px;
+        border: 2px solid white;
+        border-right: none;
+    }
+}
+.header__top{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // gap: 50px;
+    margin-left: 30px;
+}
+.header__all__links{
+    width: 100%;
+    height: 50px;
+    border: 2px solid white;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    // margin-bottom: 35px;
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+}
+.header__buttom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    gap: 90px;
+}

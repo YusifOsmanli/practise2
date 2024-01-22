@@ -1,0 +1,60 @@
+.last__section{
+    // margin-top: 30px;
+    width: 100%;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    background-image: url("https://preview.colorlib.com/theme/pulse/img/footer-bg.jpg.webp");
+}
+.last__form{
+    width: 600px;
+    height: 500px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    background-color: white;
+    margin-bottom: 100px;
+    .last__form__top{
+        display: flex;
+    }
+    .last__icon{
+        font-size: 50px;
+        color: gray;
+    }
+    .last__input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        input{
+            width: 250px;
+            height: 30px;
+            border-radius: 5px;
+            background-color: lightblue;
+            border: none;
+           
+            
+        }
+       
+    }
+    .lastButton button{
+        width: 200px;
+        height: 50px;
+        background-color: orange;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+    
+}
+.xett4{
+    width: 100px;
+    height: 1px;
+    background-color: orange;
+}
+.last__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+
+}

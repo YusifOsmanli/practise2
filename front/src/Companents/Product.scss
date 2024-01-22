@@ -1,0 +1,65 @@
+.product__alll{
+    width: 100&;
+    height: 800px;
+    background-image: url("https://preview.colorlib.com/theme/pulse/img/menu-bg.jpg.webp");
+    display: flex;
+    // justify-content: center;
+    gap: 30px;
+    align-items: center;
+    flex-direction: column;
+    z-index: 156;
+    .product__iconn{
+        color: gray;
+        font-size: 60px;
+    }
+}
+.xett3{
+    width: 100px;
+    height: 2px;
+    background-color: orangered;
+}
+.Product__textt{
+    display: flex;
+}
+.categories span{
+    font-size: 20px;
+    color: white;
+    span{
+     :hover{
+        color: orangered;
+    }}
+        
+}
+.data{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 35px;
+}
+.product__crops{
+    display: flex;
+}
+.categories{
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+input{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card-body{
+    width: 200px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.wishlist__card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.button__end button{
+    width: 200px;
+    height: 70px;
+    background-color: orange;
+    font-size: 20px;
+    color: white;
+}

@@ -1,0 +1,43 @@
+.xett2{
+    width: 100px;
+    height: 2px;
+    background-color: orangered;
+    margin-top: 15px;
+}
+.section4__text{
+    display: flex;
+    gap: 30px;
+}
+.section4__all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    p{
+        color: gray;
+    }
+}
+.section4__icon{
+    i{
+        font-size: 60px;
+        color: skyblue;
+    }
+}
+.section4__cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section4__text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h3{
+        font-size: 20px;
+    }
+    i{
+        font-size: 20px;
+    }
+}

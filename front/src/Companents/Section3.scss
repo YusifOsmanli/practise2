@@ -1,0 +1,80 @@
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swipper3{
+    position: relative;
+  }
+  .inseide3{
+    position: absolute;
+    // right: 20%;
+    margin-right: 750px;
+    top: 0%;
+    z-index: 156;
+    transform: translate(50%,50%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    .inside3__top{
+       i{
+        font-size: 80px;
+       }
+    }
+    .inside3__2{
+       
+    }
+    .inside3__2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .xett{
+            width: 100px;
+            height: 1px;
+            background-color: yellow;
+        }
+    }
+  }
+
+  .section3__3{
+    width: 800px;
+    height: 50px;
+  }

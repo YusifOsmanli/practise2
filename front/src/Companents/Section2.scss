@@ -1,0 +1,27 @@
+.card__all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 200px;
+    
+}
+.section2__all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    .section2__icon i{
+        font-size: 50px;
+        color: gray;
+    }
+    .welcome{
+        font-size: 30px;
+        color: gray;
+    }
+}
+.card-body h5{
+    font-size: 20px;
+}
